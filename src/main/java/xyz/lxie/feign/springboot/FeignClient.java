@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
 @Documented
 public @interface FeignClient {
     /**
-     * An absolute URL or resolvable hostname.<br/>
+     * An absolute URL or resolvable hostname.<br>
      * whether or not a url is provided. Can be specified as property key, eg: ${propertyKey}.
      */
     String value() default "";
