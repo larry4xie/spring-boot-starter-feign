@@ -2,6 +2,18 @@
 - [spring boot](https://spring.io/spring-boot)
 - [feign](https://github.com/OpenFeign/feign)
 
+## dependency
+```xml
+<dependency>
+    <groupId>xyz.lxie</groupId>
+    <artifactId>spring-boot-starter-feign</artifactId>
+    <version>${starter-feign.version}</version>
+</dependency>
+```
+
+> search [newest version](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22xyz.lxie%22%20a%3A%22spring-boot-starter-feign%22)
+
+
 ## usage
 ```java
 // 1. EnableFeignClients
